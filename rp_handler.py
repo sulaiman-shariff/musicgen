@@ -8,7 +8,7 @@ import scipy.io.wavfile
 import tempfile
 
 from transformers import MusicgenForConditionalGeneration, AutoProcessor
-from moviepy.editor import VideoFileClip, AudioFileClip 
+from moviepy.editor import VideoFileClip, AudioFileClip  
 
 
 # Load the MusicGen model and processor

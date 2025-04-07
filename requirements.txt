@@ -3,7 +3,9 @@ runpod
 torch==2.1.0
 git+https://github.com/huggingface/transformers.git
 scipy
+numpy<2        # see next section
 moviepy
+imageio-ffmpeg
 accelerate
 sentencepiece
 ffmpeg-python
