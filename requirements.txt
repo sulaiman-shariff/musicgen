@@ -1,5 +1,10 @@
 runpod
-torch
-transformers
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.1.0+cu118
+git+https://github.com/huggingface/transformers.git
 scipy
 moviepy
+accelerate
+sentencepiece
+ffmpeg-python
+tqdm

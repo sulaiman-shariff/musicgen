@@ -8,10 +8,8 @@ import scipy.io.wavfile
 import tempfile
 
 from transformers import MusicgenForConditionalGeneration, AutoProcessor
-from moviepy.editor import VideoFileClip, AudioFileClip # type: ignore
+from moviepy.editor import VideoFileClip, AudioFileClip 
 
-# Optionally get a Hugging Face token if required (MusicGen is public)
-HF_TOKEN = os.getenv("HF_TOKEN")
 
 # Load the MusicGen model and processor
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
