@@ -6,6 +6,7 @@ RUN apt-get update && \
       build-essential \
       libsndfile1 \
       ffmpeg \
+      git \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /
